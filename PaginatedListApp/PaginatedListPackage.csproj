@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>Smart-PaginatedList-Kit</PackageId>
+    <Title>Smart-PaginatedList-Kit</Title>
+    <Authors>Eng.Amr Samy</Authors>
+    <Description>This Package Allow you to make Paginated List By Passing Page Index, Page Size , Query of Type (IQueryable)  &amp; Expression of Type (PredicateBuilder) is Optional </Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LinqKit" Version="1.2.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
